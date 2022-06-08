@@ -36,6 +36,7 @@ ggplot(adae) +
 plotly
 
 ```{r}
+#phils plotly
 p <- ggplot(adae) +
   aes(x = AESEV, fill = SEX, weight = AGE) +
   geom_bar() +
